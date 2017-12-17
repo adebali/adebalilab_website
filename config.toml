@@ -1,5 +1,5 @@
 title = "Adebali Lab"
-baseURL = "https://vibrant-cray-e64129.netlify.com"
+baseURL = "/"
 languageCode = "en-us"
 theme = "gohugo-theme-ananke"
 
