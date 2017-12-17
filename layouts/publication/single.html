@@ -1,0 +1,45 @@
+{{ define "header" }}
+   {{/* We can override any block in the baseof file be defining it in the template */}}
+  {{ partial "page-header.html" . }}
+{{ end }}
+
+{{ define "main" }}
+  <div class="flex-l mt2 mw8 center">
+    <article class="center cf pv5 ph3 ph4-ns mw7">
+      <p class="f6 b helvetica tracked">
+        {{/* Humanize removes hyphens and capitalizes the first word */}}
+        {{ humanize .Section | upper  }}
+        <!-- | -->
+            <!-- {{ dateFormat "January 2, 2006" .Params.pubDate | upper }} -->
+      </p>
+      <h1 class="f3">
+        <a class="link black dim" target="_blank" href= http://dx.doi.org/{{ .Params.doi }}>{{ .Title }}</a>
+      </h1>
+        {{/* TODO: Add Hugo author  */}}
+        {{/* Hugo uses Go's date formatting is set by example. Here are two formats */}}
+        <p class="f4">
+          {{ range $i, $author :=  .Params.authors }}
+          <text class="mh1">
+            {{ $author }}
+            </text>
+          {{ end }}
+        </p>
+        <p>
+          <!-- {{ .Params.journal }} {{.Params.vol}} {{.Params.issue}} {{.Params.pages}}  -->
+          Journal: {{ .Params.journal }}
+          <text class="mh4">
+            Publication Date: {{ dateFormat "January 2, 2006" .Params.pubDate }}
+          </text>
+          
+        </p>
+      <hr>
+      <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray tj">
+        {{ .Content }}
+      </section>
+      {{ partial "tags.html" . }}
+    </article>
+    <!-- <div class="ph3 mt2 mt6-ns">
+      {{ partial "menu-contextual.html" . }}
+    </div> -->
+  </div>
+{{ end }}

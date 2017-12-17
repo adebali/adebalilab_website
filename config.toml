@@ -30,3 +30,18 @@ enableRobotsTXT = true
   recent_posts_number = 2
   # mainSections = ["news"]
   # noInMenu = "Posts"
+
+[[menu.main]]
+    name = "a"
+    url  = "/"
+    weight = 0
+
+[[menu.main]]
+    name = "b"
+    url  = "about"
+    weight = 5
+
+[[menu.main]]
+    name = "c"
+    url  = "post/"
+    weight = 10

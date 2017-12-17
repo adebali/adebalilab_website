@@ -1,0 +1,13 @@
+  <div class="mb3 mv4 mid-gray overflow-hidden">
+    {{ if .Date }}
+      <div class="f6">
+        {{ .Date.Format "January 2, 2006" }}
+      </div>
+    {{ end }}
+    <h1 class="f3 near-black">
+        {{ .Title }}
+    </h1>
+    <div class="nested-links f4 lh-copy nested-copy-line-height">
+      {{ .Content  }}
+    </div>
+  </div>

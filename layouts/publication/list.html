@@ -1,0 +1,70 @@
+
+
+
+{{ define "main" }}
+<main class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray">
+  {{ .Content }}
+</main>
+
+<div class="flex-l mt2 mw8 center">
+  <ol reversed>
+    <article class="pa3 pa4-ns nested-copy-line-height nested-img">
+    {{ range .Pages.ByDate.Reverse}}
+    <li class="pa2 f4 bg-near-white">
+      
+        {{ $authorNum := len .Params.authors }}
+        {{ $authorNumL := slice 1 3 }}
+        {{ $authorNumE := 4 }}
+        {{ $corresponding := .Params.corresponding }}
+        {{ $equal := .Params.equalCont }}
+        {{ $members := .Params.members }}
+        {{ range $i, $author :=  .Params.authors }}
+        <text class="mh0">
+          {{if in $members (string (add $i 1)) }}
+          <b>{{- $author -}}</b>
+          {{- else -}}
+            {{- $author -}}
+          {{- end -}}
+          {{- if in $corresponding (string (add $i 1)) -}}
+          *
+          {{- end -}}
+          {{- if in $equal (string (add $i 1)) -}}
+          <sup>#</sup>
+          {{- end -}}
+          {{- if lt $i (add $authorNum -1 ) -}}
+            ,
+          {{ end }}
+          </text>
+        {{ end }} 
+      ({{ dateFormat "2006" .Params.pubDate }}) <br>
+      <a class="f4 link black hover-blue" href="{{.URL}}">{{.Title}}</a><br>
+      <i>{{- .Params.journal -}}</i>,
+      {{ if .Params.vol -}}
+        <i>{{- .Params.vol -}}</i>
+      {{- end -}}
+      {{- if .Params.issue -}}
+        ({{- .Params.issue -}})
+      {{- end -}}
+
+      {{- if .Params.pages -}}
+        , {{ .Params.pages -}}
+        {{- end -}}
+      .
+    
+      
+         
+    </li>
+    {{ end }}
+  </ol>
+  
+</article>
+</div>
+<div class="flex-l mt2 mw8 center">
+  <div class="nested-copy-line-height nested-img">
+    
+    <p class="ml5">
+      # Equal Contribution | * Corresponding Author
+    </p>
+  </div>
+</div>
+{{ end }}
