@@ -2,7 +2,7 @@
 date: 2017-04-14T11:25:05-04:00
 description: "Esmeralda"
 featured_image: "/images/esmeralda.jpg"
-tags: []
+tags: ["t2"]
 title: "Chapter VI: Esmeralda"
 ---
 We are delighted to be able to inform the reader, that during the whole of
