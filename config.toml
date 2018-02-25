@@ -31,17 +31,7 @@ enableRobotsTXT = true
   # mainSections = ["news"]
   # noInMenu = "Posts"
 
-[[menu.main]]
-    name = "a"
-    url  = "/"
-    weight = 0
-
-[[menu.main]]
-    name = "b"
-    url  = "about"
-    weight = 5
-
-[[menu.main]]
-    name = "c"
-    url  = "post/"
-    weight = 10
+# [[menu.main]]
+ #   name = "a"
+ #   url  = "/"
+ #   weight = 0
