@@ -7,52 +7,68 @@
 </main>
 
 <div class="flex-l mt2 mw8 center">
-  <ol reversed>
+  <ol reversed class="p0 m0">
     <article class="pa3 pa4-ns nested-copy-line-height nested-img">
     {{ range .Pages.ByDate.Reverse}}
-    <li class="pa2 f4 bg-near-white">
-      
-        {{ $authorNum := len .Params.authors }}
-        {{ $authorNumL := slice 1 3 }}
-        {{ $authorNumE := 4 }}
-        {{ $corresponding := .Params.corresponding }}
-        {{ $equal := .Params.equalCont }}
-        {{ $members := .Params.members }}
-        {{ range $i, $author :=  .Params.authors }}
-        <text class="mh0">
-          {{if in $members (string (add $i 1)) }}
-          <b>{{- $author -}}</b>
-          {{- else -}}
-            {{- $author -}}
-          {{- end -}}
-          {{- if in $corresponding (string (add $i 1)) -}}
-          *
-          {{- end -}}
-          {{- if in $equal (string (add $i 1)) -}}
-          <sup>#</sup>
-          {{- end -}}
-          {{- if lt $i (add $authorNum -1 ) -}}
-            ,
-          {{ end }}
-          </text>
-        {{ end }} 
-      ({{ dateFormat "2006" .Params.pubDate }}) <br>
-      <a class="f4 link black hover-blue" href="{{.URL}}">{{.Title}}</a><br>
-      <i>{{- .Params.journal -}}</i>,
-      {{ if .Params.vol -}}
-        <i>{{- .Params.vol -}}</i>
-      {{- end -}}
-      {{- if .Params.issue -}}
-        ({{- .Params.issue -}})
-      {{- end -}}
+    <li class="pa2 m2 f4">
+      <div class="mt0 pt0">
+          {{ if .Params.thumbnail }}
+          <div class="fr w-10 mt0 pt0">
+            <!-- <div class="pr3-ns mb0 mb0-ns w-100 w-40-ns"> -->
+              <img src="{{ .Params.thumbnail }}" class="db" alt="image from {{ .Title }}">
+            <!-- </div> -->
+          </div>
+            {{ end }}
 
-      {{- if .Params.pages -}}
-        , {{ .Params.pages -}}
+          {{ if .Params.thumbnail }}
+            <div class="w-90">
+          {{ else }}
+            <div class="">  
+          {{ end }}
+
+          {{ $authorNum := len .Params.authors }}
+          {{ $authorNumL := slice 1 3 }}
+          {{ $authorNumE := 4 }}
+          {{ $corresponding := .Params.corresponding }}
+          {{ $equal := .Params.equalCont }}
+          {{ $members := .Params.members }}
+          {{ range $i, $author :=  .Params.authors }}
+          <text class="mh0">
+            {{if in $members (string (add $i 1)) }}
+            <b>{{- $author -}}</b>
+            {{- else -}}
+              {{- $author -}}
+            {{- end -}}
+            {{- if in $corresponding (string (add $i 1)) -}}
+            *
+            {{- end -}}
+            {{- if in $equal (string (add $i 1)) -}}
+            <sup>#</sup>
+            {{- end -}}
+            {{- if lt $i (add $authorNum -1 ) -}}
+              ,
+            {{ end }}
+            </text>
+          {{ end }} 
+        ({{ dateFormat "2006" .Params.pubDate }}) <br>
+        <a class="f4 link black hover-blue" href="{{.URL}}">{{.Title}}</a><br>
+        <i>{{- .Params.journal -}}</i>,
+        {{ if .Params.vol -}}
+          <i>{{- .Params.vol -}}</i>
         {{- end -}}
-      .
-    
+        {{- if .Params.issue -}}
+          ({{- .Params.issue -}})
+        {{- end -}}
+
+        {{- if .Params.pages -}}
+          , {{ .Params.pages -}}
+          {{- end -}}
+        .
+      </div>
+
+          <p></p>
+    </div>
       
-         
     </li>
     {{ end }}
   </ol>
@@ -68,3 +84,4 @@
   </div>
 </div>
 {{ end }}
+
