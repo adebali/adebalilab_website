@@ -12,3 +12,10 @@ ul li {
      */
     margin-left: 1em;
 }
+
+.sabancilogo {
+    fill: #BABABA;
+  }
+.sabancilogo:hover {
+    fill: #FFFFFF;
+  }
