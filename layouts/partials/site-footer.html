@@ -1,8 +1,27 @@
-<footer class="bg-near-black bottom-0 w-100 pa3" role="contentinfo">
+<footer class="bg-near-black bottom-0 w-100 pa1 " role="contentinfo">
   <div class="flex justify-between">
-  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="{{ .Site.BaseURL }}" >
-    &copy; {{ now.Format "2006" }} {{ .Site.Title }}
-  </a>
-  {{ partial "social-follow.html" . }}
+      <div class="dn dib-ns fl w-100 w-third-ns pt4 pb3 pl4">
+        <div class="tl dib v-btm">  
+              <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="{{ .Site.BaseURL }}" >
+                &copy; {{ now.Format "2006" }} {{ .Site.Title }}
+              </a>
+        </div>
+      </div>
+
+      <div class="dib-ns fl w-100 w-third-ns pt3">
+          <div class="tc">
+          {{ partial "university-logo.html" . }}
+        </div>
+      </div>
+  <!-- <a class="f6 fw6 hover-white no-underline white-70 dn dib-ns pv0 ph0" href="https://sabanciuniv.edu" >
+    <img src="/images/sabanci_universitesi_logo_white.png" height="50">
+  </img>
+</a> -->
+<div class="dn dib-ns fl w-100 w-third-ns pt4 pb3 pr4">
+    <div class="tr">  
+    {{ partial "social-follow.html" . }}
+  </div>
+</div>
+
   </div>
 </footer>
