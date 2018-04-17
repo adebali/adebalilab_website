@@ -1,12 +1,20 @@
 ---
 title: Contact
-description: We'd love to hear from you
+# description: We'd love to hear from you
 type: page
 menu:
   main: {}
+featured_image: "/images/campus.jpg"
 ---
 
+Postal address
+---
+Orta Mahallesi, Sabancı Ünv. No:27, FENS, 34956 Tuzla/İstanbul, Turkey
 
-This is an example of a custom shortcode that you can put right into your content. You will need to add a form action to the the shortcode to make it work. Check out [Formspree](https://formspree.io/) for a simple, free form service. 
+Write us
+---
+Reach us regarding our research and informal position inquries. For formal inquries //formspree.io/{{ $.Site.params.email }}, please send an e-mail to Dr. Adebali.
 
-{{< form-contact action="https://example.com"  >}}
+{{< form-contact action="//formspree.io/{{ $.Site.params.email }}"  >}}
+
+
