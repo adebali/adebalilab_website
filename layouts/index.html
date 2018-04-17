@@ -19,7 +19,7 @@
     <div class="mv5"> 
       <h1 class="center">Latest publications</h1>
       <hr>
-      {{ range first 3 (where .Data.Pages "Section" "==" "publication") }}
+      {{ range first 5 (where .Data.Pages "Section" "==" "publication") }}
       <div>        
         {{ .Render "summary-with-image"}}
       </div>
