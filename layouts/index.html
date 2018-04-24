@@ -1,5 +1,5 @@
 {{ define "main" }}
-  <div class="pa3 f4 pa4-ns w-100 w-70-ns center mid-gray overflow-hidden"> 
+  <div class="pa3 f3 pa4-ns w-100 center mid-gray overflow-hidden"> 
     {{ .Content }}
   </div>
   <div class="pa3 pa4-ns w-100 w-70-ns center"> 
@@ -21,7 +21,7 @@
       <hr>
       {{ range first 5 (where .Data.Pages "Section" "==" "publication") }}
       <div>        
-        {{ .Render "summary-with-image"}}
+        {{ .Render "mainpage-summary"}}
       </div>
       {{ end }}
 
