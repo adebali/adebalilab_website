@@ -13,8 +13,10 @@ Orta Mahallesi, Sabancı Ünv. No:27, FENS, 34956 Tuzla/İstanbul, Turkey
 
 Write us
 ---
-Reach us regarding our research and informal position inquries. For formal inquries //formspree.io/{{ $.Site.params.email }}, please send an e-mail to Dr. Adebali.
+
+Reach us regarding our research or informal* position inquiries. 
 
 {{< form-contact action="//formspree.io/{{ $.Site.params.email }}"  >}}
 
+For formal applications, please send an e-mail to [Dr. Adebali](mailto:oadebali@sabanciuniv.edu) with your CV and transcript (when applicable) attached.
 
