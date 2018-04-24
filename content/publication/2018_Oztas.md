@@ -8,12 +8,13 @@ authors: [Oztas O., Selby C.P., Sancar A., Adebali O.]
 members: [4]
 equalCont: []
 corresponding: [3,4]
-doi: "#"
+doi: "10.1038/s41467-018-03922-5"
 pubmedId: ""
 issue: in press
 # vol: 115
 # pages: E3408-E3415
 featured_image: "/images/plant-clock.jpg"
+# thumbnail: "/images/plant-clock.jpg"
 tags: [repair, circadian]
 category: "article"
 draft: False
