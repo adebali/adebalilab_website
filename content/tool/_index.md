@@ -1,5 +1,5 @@
 ---
-title: "Tools"
+title: "Services"
 description: ""
 featured_image: '/images/groundup.jpg'
 weight: 6
