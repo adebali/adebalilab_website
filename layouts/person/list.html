@@ -1,0 +1,27 @@
+
+
+
+{{ define "main" }}
+<main class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray">
+  {{ .Content }}
+</main>
+
+<div class="flex-l mt2 mw8 center">
+  <ul class="p0 m0">
+    <article class="pa3 pa4-ns nested-copy-line-height nested-img">
+    {{ range .Pages.ByDate.Reverse}}
+    <li class="pa2 m2 f4">
+      <div class="mt0 pt0">
+        <div class="">  
+          <a class="f4 link black hover-blue" href="{{.URL}}">{{.Title}}</a><br>
+        </div>
+      </div>  
+    </li>
+    {{ end }}
+  </ol>
+  
+</article>
+</div>
+
+{{ end }}
+
