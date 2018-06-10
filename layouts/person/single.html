@@ -12,20 +12,22 @@
   
   <article class="center cf pv5 ph3 ph4-ns mw7">
     
-    <h1 class="f2">
+    <h1 class="f1">
       {{ .Params.name }} {{ .Params.lastname}}{{ if .Params.degree }}, {{ .Params.degree}}{{ end }}
     </h1>
-    <h1 class="f3">
+    <h1 class="f2">
       {{ .Params.jobTitle }}
     </h1>
     <hr>
-    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray tj">
+    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray tj nodecor avenir f4">
       <link rel="stylesheet" href="/css/person.css">
       {{ .Content }}
     </section>
     {{ partial "tags.html" . }}
     
+    <hr>
     
+
   </article>
   <!-- <div class="ph3 mt2 mt6-ns">
     {{ partial "menu-contextual.html" . }}

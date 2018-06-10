@@ -1,0 +1,7 @@
+{{ $.Scratch.Add "text" "I am a text" }}
+{{ $.Scratch.Add "link" "ThisIsLink.org" }}
+
+
+<a style="color:red" href={{ $.Scratch.Get "link" }}>
+        {{ $.Scratch.Get "text" }}
+</a>
