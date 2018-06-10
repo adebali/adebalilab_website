@@ -1,0 +1,12 @@
+<article class="">
+  <div class="db ph3 ph0-l no-underline dark-gray">
+    <div class="flex flex-column flex-row-ns">
+      <div class="w-100{{ if .Params.featured_image }} {{ end }}">
+        <p class="f6">{{ dateFormat "January 2, 2006" .Params.pubDate }}</p>
+        <a class = "mt0 link dark-gray dim" href="{{ .URL }}">
+          <p class="f4 mt0">{{ .Title }} <i>{{ .Params.journal }}</i></p>
+        </a>
+      </div>
+    </div>
+  </div>
+</article>
