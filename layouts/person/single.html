@@ -1,0 +1,36 @@
+
+{{ define "header" }}
+{{/* We can override any block in the baseof file be defining it in the template */}}
+{{ partial "page-header.html" . }}
+{{ end }}
+
+{{ define "main" }}
+<!-- {{ range .Site.Params.custom_css -}}
+  <link rel="stylesheet" href="{{ . | absURL }}">
+{{- end }} -->
+<div class="flex-l mt2 mw8 center">
+  
+  <article class="center cf pv5 ph3 ph4-ns mw7">
+    
+    <h1 class="f2">
+      {{ .Params.name }} {{ .Params.lastname}}{{ if .Params.degree }}, {{ .Params.degree}}{{ end }}
+    </h1>
+    <h1 class="f3">
+      {{ .Params.jobTitle }}
+    </h1>
+    <hr>
+    <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray tj">
+      <link rel="stylesheet" href="/css/person.css">
+      {{ .Content }}
+    </section>
+    {{ partial "tags.html" . }}
+    
+    
+  </article>
+  <!-- <div class="ph3 mt2 mt6-ns">
+    {{ partial "menu-contextual.html" . }}
+  </div> -->
+  
+  
+  </div>
+{{ end }}
