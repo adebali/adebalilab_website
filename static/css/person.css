@@ -1,0 +1,16 @@
+.nodecor a:visited, .nodecor a:link, .nodecor a:active {
+    color: inherit;
+    transition: opacity 2.45s ease-in;
+    text-decoration: none;
+}
+.nodecor a:hover {
+  color: rgb(8, 137, 160);
+  /* text-shadow:0px 0px 0.0001px black; */
+  /* font-weight:bold; */
+  transition: opacity 2.45s ease-in;
+  text-decoration: underline;
+}
+h1 {
+  color: rgb(11, 74, 77);
+}
+
