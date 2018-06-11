@@ -21,16 +21,20 @@ We see, hear and feel; therefore we are! How about our cells? They feel the envi
 
 The genetic disorders that affect a small fraction of a population is defined "rare". However, the number of rare disorders is so high that 1 in every 17 people will be affected by a rare genetic disorder. Therefore rare disorders should not be neglected. The genetic diagnosis of a spectrum of rare diseases have been a major problem. The prediction preformance of the automated algorithms is far from the desired level. In our lab we will attemp to study the evolution of the genes associated with Mendelian diseases and develop computational tools in predicting the effect of amino acid substitutions on protein function.
 
+{{< figure src="http://adebali.com/images/research/missense.jpg" title="" >}}
+
+
 ## DNA Damage and Repair, Circadian Clock Regulation
 
 How is our genome damaged? How do our cells cope with the damage? Fortunately, we and other organisms have a cellular mechanism, DNA repair, to remove the DNA damage induced by internal and external factors. We are interested in understanding the dynamics of DNA damage and repair events in genomes. Recently, a number of genome-wide sequencing technologies have been developed to map damage and repair events onto genomes of interest. We apply bioinformatics applications to reveal the genomic factors playing role in DNA damage and repair bias. We actively colloborate with [Aziz Sancar Lab](http://sancarlab.unc.edu) and analyze genomic damage and repair profiles under variety of conditions.
 
-{{< figure src="http://adebali.com/images/research/missense.jpg" title="" >}}
+{{< figure src="/images/cca1.png" title="" >}}
+
 ___
 
 ## Lab Tools and Resources
 
-We develop tools and resources to enable biologists and bioinformaticians to benefit from our studies. Please visit [tools](/tools) for details.
+We develop tools and resources to enable biologists and bioinformaticians to benefit from our studies. Please visit [tools](/tool) for details.
 
 
 ___

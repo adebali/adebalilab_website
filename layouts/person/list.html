@@ -2,7 +2,7 @@
 
 
 {{ define "main" }}
-<main class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center measure-wide lh-copy mid-gray">
+<main class="cf ph3 ph5-l pv3 pv4-l f4 tc-l center lh-copy mid-gray">
   {{ .Content }}
 </main>
 
@@ -10,13 +10,17 @@
   <ul class="p0 m0">
     <article class="pa3 pa4-ns nested-copy-line-height nested-img">
     {{ range .Pages.ByDate.Reverse}}
-    <li class="pa2 m2 f4">
+    <div class="pa2 m2 f4 list pl0 pa2">
       <div class="mt0 pt0">
         <div class="">  
-          <a class="f4 link black hover-blue" href="{{.URL}}">{{.Title}}</a><br>
+          <a class="f4 link black hover-blue" href="{{.URL}}">{{.Title}}
+            <p class="f5">
+              {{.Params.jobTitle}}
+            </p>
+          </a><br>
         </div>
       </div>  
-    </li>
+    </div>
     {{ end }}
   </ol>
   
