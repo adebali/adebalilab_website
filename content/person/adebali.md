@@ -13,7 +13,7 @@ draft: false
 ## Education
 <!-- {{< textlink text="helloWorld!" link="hello.com" >}} -->
 
-* **2016 Ph.D.** [University of Tennessee](http://utk.edu)
+* **2015 Ph.D.** [University of Tennessee](http://utk.edu)
     * Major: Life Sciences - [Genome Science & Technology](http://gst.tennessee.edu)
     * Minor: [Computational Science](http://igmcs.utk.edu)
 * **2011 B.S.** [Middle East Technical University](http://metu.edu.tr)

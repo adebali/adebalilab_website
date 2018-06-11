@@ -12,12 +12,15 @@
   
   <article class="center cf pv5 ph3 ph4-ns mw7">
     
-    <h1 class="f1">
-      {{ .Params.name }} {{ .Params.lastname}}{{ if .Params.degree }}, {{ .Params.degree}}{{ end }}
-    </h1>
-    <h1 class="f2">
-      {{ .Params.jobTitle }}
-    </h1>
+    <div class="tc">
+
+      <h1 class="f1 mb1">
+        {{ .Params.name }} {{ .Params.lastname}}{{ if .Params.degree }}, {{ .Params.degree}}{{ end }}
+      </h1>
+      <h1 class="f3 mt0">
+        {{ .Params.jobTitle }}
+      </h1>
+    </div>
     <hr>
     <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray tj nodecor athelas f4">
       <link rel="stylesheet" href="/css/person.css">
