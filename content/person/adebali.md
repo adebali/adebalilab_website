@@ -1,6 +1,6 @@
 ---
-title: "Ogun Adebali, Ph.D."
-name: "Ogun"
+title: "Ogün Adebali, Ph.D."
+name: "Ogün"
 lastname: "Adebali"
 jobTitle: Principle Investigator
 email: oadebali@sabanciuniv.edu
