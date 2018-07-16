@@ -5,7 +5,7 @@ lastname: "Adebali"
 jobTitle: Principle Investigator
 email: oadebali@sabanciuniv.edu
 degree: "Ph.D."
-photo: "/img/adebali.jpg"
+photo: "/images/adebali.jpg"
 date: 2017-12-12T14:28:22-05:00
 draft: false
 ---

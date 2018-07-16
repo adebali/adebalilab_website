@@ -1,11 +1,11 @@
 ---
-title: "Person Who"
-name: "Person"
-lastname: "Who"
-jobTitle: Ms.C. Student
+title: Future Member
+name: "Future"
+lastname: "Member"
+jobTitle: Ms.C./Ph.D. Student
 email: person@sabanciuniv.edu
 degree: "B.Sc."
-photo: "/img/adebali.jpg"
+photo: "/images/person.jpg"
 date: 2017-12-12T14:28:22-05:00
 draft: false
 ---

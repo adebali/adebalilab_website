@@ -10,9 +10,9 @@ equalCont: []
 corresponding: [3,4]
 doi: "10.1038/s41467-018-03922-5"
 pubmedId: ""
-issue: in press
-# vol: 115
-# pages: E3408-E3415
+issue: 1
+vol: 9
+pages: 1503
 featured_image: "/images/plant-clock.jpg"
 # thumbnail: "/images/plant-clock.jpg"
 tags: [repair, circadian]
