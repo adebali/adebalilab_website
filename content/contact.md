@@ -1,6 +1,6 @@
 ---
 title: Contact
-# description: We'd love to hear from you
+description: 
 type: page
 menu:
   main: {}

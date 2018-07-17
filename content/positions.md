@@ -38,4 +38,3 @@ It might be possible to have an internship in our lab. Please send your motivati
 
 # Postdocs
 Keep an eye on our job postings. We hope to have a postdoc position opening soon.
-
