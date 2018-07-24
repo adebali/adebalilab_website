@@ -2,7 +2,7 @@
 title: "Where genomes are deciphered."
 # featured_image: '/images/6813-chorr-kayik-1493-950px.jpg'
 featured_image: '/images/su.jpg'
-description: "Doors open in June 2018"
+description: "Look at the code, characterize the pieces of life"
 # description: "retrieve biological facts from vast volumes of genomic data"
 ---
 
