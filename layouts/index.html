@@ -1,8 +1,8 @@
 {{ define "main" }}
-  <div class="pa3 f3 pa4-ns w-100 center mid-gray overflow-hidden"> 
+  <div class="pa3 f3 pa4-ns w-80-ns center mid-gray overflow-hidden tj lh-copy"> 
     {{ .Content }}
   </div>
-  <div class="pa3 pa4-ns w-100 w-70-ns center"> 
+  <div class="pa3 pa4-ns w-100 w-70-ns center tj"> 
     <div>
       <h1 class="center">News</h1>
       <hr>
@@ -17,10 +17,9 @@
       <div>
         <p></p>
       </div>
-      <hr>
     </div>
     
-    <div class="mv5"> 
+    <div class="mv5 tj"> 
       <h1 class="center">Latest publications</h1>
       <hr>
       {{ range first 5 (where .Data.Pages "Section" "==" "publications") }}
@@ -29,7 +28,7 @@
       </div>
       {{ end }}
 
-      {{ with .Site.GetPage "section" "publication" }}
+      {{ with .Site.GetPage "section" "publications" }}
       <a href="{{ .URL }}" class="link db f6 mv4 pa2 br3 bg-mid-gray white dim w4 tc">All {{.Title }}</a>
       {{ end }}
     </div>
