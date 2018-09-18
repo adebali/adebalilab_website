@@ -1,7 +1,7 @@
 ---
 title: "Where genomes are deciphered."
 # featured_image: '/images/6813-chorr-kayik-1493-950px.jpg'
-featured_image: '/images/su.jpg'
+featured_image: '/images/su_reduced.jpg'
 description: "Look at the code, characterize the pieces of life"
 # description: "retrieve biological facts from vast volumes of genomic data"
 ---
