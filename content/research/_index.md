@@ -11,7 +11,7 @@ The ultimate aim of our lab is to understand how genome makes its code work. Our
 
 The vast amount of genomic data sets get harder to analyze day by day. Computational tool developers have been trying to catch up with the Next Generation Sequencing data accumulation. However, there is also a need to apply a biologist perspective to individual cases in order to achieve a precision we would need in moleculer medicine. We apply computational methods and develop approaches to understand how proteins work. We are primarily interested in determining a protein's **function** and the **importance** of each amino acid. We benefit from molecular evolution methods.
 
-{{< figure src="http://adebali.com/images/research/phypro.jpg" title="" >}}
+{{< figure src="/images/phypro.jpg" title="" >}}
 
 ### Eukaryotic Cell Signaling
 
@@ -21,7 +21,7 @@ We see, hear and feel; therefore we are! How about our cells? They feel the envi
 
 The genetic disorders that affect a small fraction of a population is defined "rare". However, the number of rare disorders is so high that 1 in every 17 people will be affected by a rare genetic disorder. Therefore rare disorders should not be neglected. The genetic diagnosis of a spectrum of rare diseases have been a major problem. The prediction preformance of the automated algorithms is far from the desired level. In our lab we will attemp to study the evolution of the genes associated with Mendelian diseases and develop computational tools in predicting the effect of amino acid substitutions on protein function.
 
-{{< figure src="http://adebali.com/images/research/missense.jpg" title="" >}}
+{{< figure src="/images/missense.jpg" title="" >}}
 
 
 ## DNA Damage and Repair, Circadian Clock Regulation
