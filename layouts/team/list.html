@@ -9,7 +9,7 @@
 <div class="">
   <ul class="p0 m0">
     <article class="pa3 pa4-ns nested-copy-line-height nested-img">
-    {{ range .Pages.ByDate.Reverse}}
+    {{ range sort .Pages ".Params.lastname"}}
     <div class="pa2 m2 f4 list pl0 pa2">
       <div class="mw9 center ph3-ns">
           <div class="cf ph2-ns">
