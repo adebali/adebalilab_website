@@ -4,7 +4,7 @@ description:
 type: page
 menu:
   main: {}
-featured_image: "/images/campus.jpg"
+featured_image: "/images/tower.jpg"
 ---
 
 Postal address
