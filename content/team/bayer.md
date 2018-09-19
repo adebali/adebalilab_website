@@ -4,7 +4,7 @@ name: "Melis"
 lastname: "Bayer"
 jobTitle: Bachelor Student
 email: melisbayer@sabanciuniv.edu
-degree: "BS"
+degree: ""
 photo:  "/images/bayer.png"
 date: 2017-12-12T14:28:22-05:00
 draft: false
