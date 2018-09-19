@@ -2,7 +2,7 @@
 title: "Melis Bayer"
 name: "Melis"
 lastname: "Bayer"
-jobTitle: Bachelor Student
+jobTitle: Undergraduate Student
 email: melisbayer@sabanciuniv.edu
 degree: ""
 photo:  "/images/bayer.png"
