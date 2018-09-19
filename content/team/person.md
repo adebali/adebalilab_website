@@ -7,7 +7,7 @@ email: person@sabanciuniv.edu
 degree: "B.Sc."
 photo: "/images/person.jpg"
 date: 2017-12-12T14:28:22-05:00
-draft: false
+draft: true
 ---
 
 ## Education
