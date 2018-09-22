@@ -1,7 +1,7 @@
 ---
 title: "Tools"
 description: ""
-featured_image: '/images/groundup.jpg'
+featured_image: '/images/tools.jpg'
 weight: 6
 ---
 
