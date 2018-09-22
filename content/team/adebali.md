@@ -21,7 +21,7 @@ draft: false
 
 ## Work Experience
 
-* **2018**, Assistant Professor, [Sabanci University](http://sabanciuniv.edu)
+* **2018**, Assistant Professor, [Sabanci University](http://sabanciuniv.edu/en)
 * **2016-2018**, Postdoctoral Research Associate, [University of North Carolina](http://unc.edu), [Aziz Sancar Lab](http://sancarlab.unc.edu)
 * **2015-2016**, Postdoctoral Research Associate, [University of Tennessee](http://utk.edu) & [Oak Ridge National Laboratory](http://ornl.gov), [Igor Zhulin Lab](http://zhulinlab.org)
 * **2011-2015**, Graduate Research/Teaching Assistant, [University of Tennessee](http://utk.edu)

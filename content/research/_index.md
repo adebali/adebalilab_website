@@ -39,7 +39,7 @@ We develop tools and resources to enable biologists and bioinformaticians to ben
 
 ___
 #### Our research is supported by
-* [Sabanci University](http://sabanciuniv.edu)
+* [Sabanci University](http://sabanciuniv.edu/en)
     * Personal Research Funds
 * [Scientific and Technological Research Council of Turkey (TUBITAK)](http://tubitak.gov.tr/en)
     * BIDEB 2232 (2018-2020)

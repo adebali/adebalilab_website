@@ -13,7 +13,7 @@ draft: false
 ## Education
 
 * **2015-Present BS** [Sabancı University](https://www.sabanciuniv.edu/en)
-    * Major: [Molecular Biology, Genetics and Bioengineering.](https://bio.sabanciuniv.edu/tr)
+    * Major: [Molecular Biology, Genetics and Bioengineering.](https://bio.sabanciuniv.edu/en)
 
 ## Internship
 
