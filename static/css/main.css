@@ -26,3 +26,11 @@ ul li {
 	margin-left:auto;
     margin-right:auto;
 }
+
+
+.lablogo {
+    opacity: 0.9; 
+  }
+.lablogo:hover {
+    opacity: 1; 
+  }
