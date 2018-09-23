@@ -1,13 +1,16 @@
 <div class="relative w-100 mb4 nested-copy-line-height">
-  <div class="mb3 pa4 gray overflow-hidden">
-    <span class="f6 db">{{ humanize .Section }}</span>
-    <h1 class="f3 near-black">
-      <a href="{{ .URL }}" class="link black dim">
-        {{ .Title }}
-      </a>
-    </h1>
-    <div class="nested-links f5 lh-copy nested-copy-line-height">
-      {{ .Summary  }}
-    </div>
+  <div class="mb3 pa2 gray overflow-hidden">
+    <!-- <span class="f6 db">{{ humanize .Section }}</span> -->
+    <blockquote class="avenir ml0 mt0 pl3 black-90 bl bw2 b--black">
+
+      <h1 class="f3 near-black">
+        <a href="{{ .URL }}" class="link black dim">
+          {{ .Title }}
+        </a>
+      </h1>
+      <div class="nested-links f4 lh-copy nested-copy-line-height">
+        {{ .Summary  }}
+      </div>
+    </blockquote>
   </div>
 </div>

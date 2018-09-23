@@ -1,14 +1,14 @@
 {{ define "main" }}
-  <article class="cf pa3 pa4-m pa4-l avenir">
+  <article class="cf pa3-m pa3-l avenir">
     <div class=" center f4 lh-copy nested-copy-line-height nested-links nested-img mid-gray">                
       {{ .Content }}
     </div>
   </article>
-  <div class="mw8 center avenir">
+  <div class="center avenir">
     {{ $section := where .Data.Pages "Section" .Section }}
-    <section class="flex-ns flex-wrap justify-around mt5">
+    <section class="flex-ns flex-wrap justify-around mt3">
       {{ range  $section }}
-        <div class="relative w-100  mb4 bg-white avenir">
+        <div class="relative w-100  avenir">
           {{ partial "summary.html" . }}
         </div>
       {{ end }}
