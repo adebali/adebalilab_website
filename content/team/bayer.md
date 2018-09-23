@@ -25,5 +25,5 @@ draft: false
 
 * **2018**, Sabancı University 
 
- **Purpose:** Uncovering the functional basis of adaptive evolution in chemostats, adapting the ARDUINO system to laboratory research and creating a bioreactor in which evolutionary processes of microorganisms took place.
+    **Purpose:** Uncovering the functional basis of adaptive evolution in chemostats, adapting the ARDUINO system to laboratory research and creating a bioreactor in which evolutionary processes of microorganisms took place.
 
