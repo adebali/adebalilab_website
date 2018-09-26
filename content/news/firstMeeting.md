@@ -6,4 +6,4 @@ sentence: The group met for the first time at Sabanci University to initiate exc
 
 ![First meeting](/images/labmeeting.jpg)
 
-From left to right: [Ogun Adebali](/people/adebali), [Cem Azgari](/people/azgari), [Arda Cetin](/people/cetin) and [Aylin Brican](/people/bircan). Let the fun begin!
+From left to right: [Ogun Adebali](/team/adebali), [Cem Azgari](/team/azgari), [Arda Cetin](/team/cetin) and [Aylin Brican](/team/bircan). Let the fun begin!
