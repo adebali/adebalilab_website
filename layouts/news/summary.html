@@ -4,9 +4,12 @@
         {{ .Date.Format "January 2, 2006" }}
       </div>
     {{ end }}
-    <h1 class="f3 near-black">
-        {{ .Title }}
-    </h1>
+
+    <a class = "mt0 link dark-gray dim" href="{{ .URL }}">
+        <h1 class="f3 near-black">
+            {{ .Title }}
+        </h1>
+      </a>
     <div class="nested-links f4 lh-copy nested-copy-line-height">
       {{ .Params.sentence  }}
     </div>
