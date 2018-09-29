@@ -7,6 +7,8 @@ menu:
 featured_image: "/images/tower.jpg"
 ---
 
+{{< google-map >}}
+
 Postal address
 ---
 Orta Mahallesi, Sabancı Ünv. No:27, FENS, 34956 Tuzla/İstanbul, Turkey
