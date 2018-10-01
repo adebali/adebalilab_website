@@ -11,11 +11,11 @@ menu:
 We will be a great team!
 ---
 
-Are you interested in genome sciences? Would you enjoy contributing to molecular biology using computers? We might have a space for you.
+Are you interested in genome sciences? Would you enjoy contributing to molecular biology using computers? We might have space for you.
 
 # Graduate Students
 
-We are always interested in enthusiastic graduate students at Master's and Doctoral levels. Depending on the project we might be able to provide scholarships. The open positions will be announced here. Please inquire at [oadebali@sabanciuniv.edu](mailto:oadebali@sabanciuniv.edu) or through our [contact form](/contact).
+We are always interested in enthusiastic graduate students at Masters and Doctoral levels. Depending on the project we might be able to provide scholarships. The open positions will be announced here. Please inquire at [oadebali@sabanciuniv.edu](mailto:oadebali@sabanciuniv.edu) or through our [contact form](/contact).
 
 Rule of thumb: You need to have either **a coding skill** OR **an extreme motivation in learning how to code**.
 
@@ -23,10 +23,10 @@ Rule of thumb: You need to have either **a coding skill** OR **an extreme motiva
 You are welcomed! Dr. Adebali is a molecular biologist by training, and he gained computational skills during his PhD. So, why wouldn't you be able to do the same? We will teach the basics of computing and expect you to develop your computing skills during your time in our lab.
 
 #### Computer scientists?
-Of course! Here, you will be trained in biology. We will teach you how to use your computing skills in understanding biologoical events at a molecular level.
+Of course! Here, you will be trained in biology. We will teach you how to use your computing skills in understanding biological events at a molecular level.
 
-#### Other diciplines?
-Yes! There are two criteria; you must have (i) an enthusiasim in genome sciences and (ii) wilingness to work with computers.
+#### Other disciplines?
+Yes! There are two criteria; you must have (i) an enthusiasm in genome sciences and (ii) willingness to work with computers.
 
 # Undergraduate students
 
