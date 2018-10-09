@@ -20,6 +20,18 @@ ul li {
     fill: #FFFFFF;
   }
   
+.fundinglogo {
+    fill: #000000;
+    opacity: 0.7;
+    max-height: 100px; 
+    max-width: 150px; 
+    margin-top:20px;
+    margin-bottom:30px;
+  }
+.fundinglogo:hover {
+    fill: #000000;
+    opacity: 1; 
+  }
 
 .twitter-tweet-rendered {
 	display:block;
