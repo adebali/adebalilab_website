@@ -6,13 +6,14 @@
 {{ define "main" }}
   <div class="flex-l mt2 mw8 center">
     <article class="center cf pv5 ph3 ph4-ns mw7">
-      <p class="f6 b helvetica tracked">
-        {{/* Humanize removes hyphens and capitalizes the first word */}}
-        {{ humanize .Section | upper  }}
-      </p>
-      <h1 class="f1 avenir">
+      <h1 class="f1 avenir mb0">
         {{ .Title }}
       </h1>
+        <a class="no-underline ph0 pv0 mb0 mt0 black" href = "{{ .Params.web }}">
+          <p class="f4 b helvetica tracked">
+            {{ replace .Params.web "http://" "" }}
+          </p>
+        </a>
         {{/* TODO: Add Hugo author  */}}
         {{/* Hugo uses Go's date formatting is set by example. Here are two formats */}}
 

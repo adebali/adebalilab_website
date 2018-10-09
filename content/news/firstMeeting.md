@@ -1,8 +1,11 @@
 ---
 date: 2018-09-25
 title: "The very first group meeting"
-sentence: Our group met for the first time at Sabanci University to initiate exciting research.
 ---
+
+Our group met for the first time at Sabanci University to initiate exciting research.
+
+<!--more-->
 
 ![First meeting](/images/labmeeting.jpg)
 

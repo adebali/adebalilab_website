@@ -9,7 +9,7 @@
     <section class="flex-ns flex-wrap justify-around mt3">
       {{ range  $section }}
         <div class="relative w-100  avenir">
-          {{ partial "summary.html" . }}
+          {{ .Render "summary" }}
         </div>
       {{ end }}
     </section>

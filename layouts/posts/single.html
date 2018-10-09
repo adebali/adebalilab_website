@@ -8,8 +8,10 @@
     <article class="center cf pv5 ph3 ph4-ns mw7">
       <p class="f6 b helvetica tracked">
         {{/* Humanize removes hyphens and capitalizes the first word */}}
-        {{ humanize .Section | upper  }}
+        {{ humanize .Section | upper  }} {{.Site.Data.authors.adebali.name | upper}}
       </p>
+       <p> </p>
+
       <h1 class="f1 avenir">
         {{ .Title }}
       </h1>
@@ -28,3 +30,6 @@
     </div>
   </div>
 {{ end }}
+
+
+

@@ -1,15 +1,18 @@
 ---
 title: "CDvist"
-date: 2015-12-02T10:28:18-05:00
+date: 2014-12-02T10:28:18-05:00
 featured_image: '/images/cdvist_logo.png'
 draft: False
 web: "http://cdvist.adebalilab.org"
 ---
 
 
-![CDvist](/images/cdvist_logo.png)
 
 CDvist (Comprehensive Domain Visualization Tool) is designed to sensitively identify protein domains of a given primary protein sequence.
+
+<!--more-->
+
+![CDvist](/images/cdvist_logo.png)
 
 ## Pipeline
 
