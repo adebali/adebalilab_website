@@ -5,7 +5,7 @@ lastname: "Cetin"
 jobTitle: M.Sc. Student
 email: ardacetin@sabanciuniv.edu
 degree: "BS"
-photo: "/images/cetin.png"
+photo: "/images/cetin.jpg"
 date: 2017-12-12T14:28:22-05:00
 draft: false
 ---

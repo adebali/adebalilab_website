@@ -11,6 +11,8 @@ author: adebali
 
 The current technology allows most of the teaching materials to be shared online. Moreover, it allows you to use a digital repositories to share lecture slides and notes online. Moreover, now it is also possible to create digital assignments. GitHub classroom allows to assign homeworks and dry-laboratory tasks.
 
+<!--more-->
+
 I have started teaching a class named `Computational Biology` this semester. This class have regular lecture hours plus 2 hours of lab where students are asked to perform some hands-on activities. These activities are mostly coding.
 
 I wondered if GitHub would be an appropriate place to create an online class reportoir.

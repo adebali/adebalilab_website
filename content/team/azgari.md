@@ -5,7 +5,7 @@ lastname: "Azgari"
 jobTitle: M.Sc. Student
 email: cemazgari@sabanciuniv.edu
 degree: "BS"
-photo: "/images/azgari.jpeg"
+photo: "/images/azgari.jpg"
 date: 2017-09-19T14:28:22-05:00
 draft: false
 ---
