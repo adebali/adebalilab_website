@@ -13,6 +13,9 @@ We will be a great team!
 
 Are you interested in genome sciences? Would you enjoy contributing to molecular biology using computers? We might have space for you.
 
+### The deadline for 2018-2019 Spring Semester applications is __November 16 2018__. Apply here for [Masters](https://www.sabanciuniv.edu/en/graduate-school-engineering-and-natural-sciences-admission-requirements-msc-thesis-programs) or [PhD](https://www.sabanciuniv.edu/en/graduate-school-engineering-and-natural-sciences-admission-requirements-doctorate-programs) program.
+
+
 # Graduate Students
 
 We are always interested in enthusiastic graduate students at Masters and Doctoral levels. Depending on the project we might be able to provide scholarships. The open positions will be announced here. Please inquire at [oadebali@sabanciuniv.edu](mailto:oadebali@sabanciuniv.edu) or through our [contact form](/contact).
