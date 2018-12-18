@@ -8,7 +8,7 @@ Dr. Ogun Adebali received EMBO Installation Grant award.
 
 <!--more-->
 
-![EMBO](https://www.cimr.cam.ac.uk/images/embo-logo)
+![EMBO IG](https://pbs.twimg.com/media/DusYI_LXcAAIZ28.jpg)
 
 Our group will receive a research funding for 3 to 5 years. Moreover, we will be an active member of the [Young Investigators Programme](http://embo.org/funding-awards/young-investigators).
 
