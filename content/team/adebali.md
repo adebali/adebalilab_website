@@ -7,9 +7,15 @@ email: oadebali@sabanciuniv.edu
 degree: "Ph.D."
 photo: "/images/adebali.jpg"
 phone: "+90 216 5687043"
+orcid: "0000-0001-9213-4070"
+linkedin: "adebali"
+twitter: "compGenomics"
+google: "CpHcKggAAAAJ"
 date: 2018-11-01
 draft: false
 ---
+
+<!-- <div itemscope itemtype="https://schema.org/Person"><a itemprop="sameAs" content="https://orcid.org/0000-0001-9213-4070" href="https://orcid.org/0000-0001-9213-4070" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">orcid.org/0000-0001-9213-4070</a></div> -->
 
 ## Education
 <!-- {{< textlink text="helloWorld!" link="hello.com" >}} -->
