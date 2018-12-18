@@ -8,7 +8,7 @@ Dr. Ogun Adebali received EMBO Installation Grant award.
 
 <!--more-->
 
-![EMBO IG](https://pbs.twimg.com/media/DusYI_LXcAAIZ28.jpg)
+[![EMBO IG](https://pbs.twimg.com/media/DusYI_LXcAAIZ28.jpg)](http://bit.ly/2Ep9CAc)
 
 Our group will receive a research funding for 3 to 5 years. Moreover, we will be an active member of the [Young Investigators Programme](http://embo.org/funding-awards/young-investigators).
 
