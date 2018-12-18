@@ -5,7 +5,7 @@ draft: False
 ---
 
 
-Adebali Lab invites applications to fill a postdoctoral position. 
+Our group invites applications to fill a postdoctoral position. 
 
 The successful candidate will join a team at Sabanci University working to understand the molecular evolution of G protein-coupled receptors. Although the research will be purely computational the questions to be answered will be biological. The expected duration is approximately 3-4 years with renewal at the end of each year. 
 

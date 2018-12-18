@@ -5,7 +5,7 @@ draft: False
 ---
 
 
-Adebali Lab invites applications to fill a Ph.D. position. 
+We invite applications to fill a Ph.D. position. 
 
 The successful candidate will join a team at Sabanci University working to understand the molecular evolution of G protein-coupled receptors. Although the research will be purely computational the questions to be answered will be biological.
 
