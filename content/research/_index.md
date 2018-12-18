@@ -7,6 +7,8 @@ weight: 1
 
 The ultimate aim of our lab is to understand how genome makes its code work. Our focus is on two main themes.
 
+__________
+
 ## Evolutionary Genomics
 
 The vast amount of genomic datasets get harder to analyze day by day. Computational tool developers have been trying to catch up with the Next Generation Sequencing data accumulation. However, there is also a need to apply a biologist perspective to individual cases in order to achieve a precision we would need in molecular medicine. We apply computational methods and develop approaches to understand how proteins work. We are primarily interested in determining a protein's **function** and the **importance** of each amino acid. We benefit from molecular evolution methods.
@@ -23,6 +25,7 @@ The genetic disorders that affect a small fraction of a population are defined "
 
 {{< figure src="/images/missense.jpg" title="" >}}
 
+___________
 
 ## DNA Damage and Repair, Circadian Clock Regulation
 
@@ -38,9 +41,11 @@ We develop tools and resources to enable biologists and bioinformaticians to ben
 
 
 ___
-#### Our research is supported by
+## Funding
 * [Sabanci University](http://sabanciuniv.edu/en)
     * Personal Research Funds
 * [Scientific and Technological Research Council of Turkey (TUBITAK)](http://tubitak.gov.tr/en)
     * BIDEB 2232 (2018-2020)
+* [EMBO](http://embo.org)
+    * Installation Grant (2019-2024)
 <!-- {{< figure src="/images/tubitak_logo.svg" title="" >}} -->
