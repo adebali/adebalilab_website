@@ -1,6 +1,7 @@
 ---
 date: 2018-10-27
 title: "HIBIT 2018"
+featured_image: "/images/hibit2018.jpg"
 ---
 
 Our work was presented at Health Informatics and Bioinformatics Conference held in Antalya. 

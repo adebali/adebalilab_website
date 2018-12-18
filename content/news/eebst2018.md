@@ -1,6 +1,7 @@
 ---
 date: 2018-07-20T10:58:08-04:00
 title: "EEBST 2018"
+featured_image: "/images/eebst.png"
 ---
 
 Our work was presented at Ecology and Evolutionary Biology Symposium held in Izmir. 

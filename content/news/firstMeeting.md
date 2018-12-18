@@ -1,6 +1,7 @@
 ---
 date: 2018-09-25
 title: "The very first group meeting"
+featured_image: "/images/labmeeting.jpg"
 ---
 
 Our group met for the first time at Sabanci University to initiate exciting research.
