@@ -4,8 +4,6 @@ description:
 type: page
 weight: 5
 featured_image: "/images/joinus.jpeg"
-menu:
-  main: {}
 ---
 
 It will be fun to do research here!
