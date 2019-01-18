@@ -1,7 +1,7 @@
 ---
 title: "Aquerium"
 date: 2016-12-02T10:28:18-05:00
-featured_image: '/images/correlation.png'
+featured_image: '/images/podium.png'
 draft: False
 web: "http://aquerium.adebalilab.org"
 ---
@@ -15,4 +15,6 @@ It allows multiple layer querying and visualization so that it enables users to 
 ![correlation](/images/correlation.png)
 
 ![workflow](/images/workflow2.png)
+---
+![workflow](/images/podium.png)
 
