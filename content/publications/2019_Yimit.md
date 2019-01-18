@@ -11,8 +11,8 @@ corresponding: [3, 4]
 doi: 10.1038/s41467-019-08290-2
 pubmedId: ""
 issue: 
-vol: 
-pages: 
+vol: 10
+pages: 309
 tags: [repair]
 category: "article"
 draft: False
