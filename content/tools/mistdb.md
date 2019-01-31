@@ -2,8 +2,8 @@
 title: "MiST 3"
 date: 2018-10-09
 featured_image: '/images/mist.png'
-draft: True
-web: "http://mistdb.org"
+draft: False
+web: "http://mistdb.com"
 ---
 
 Microbial Signal Transduction Database 3.0 serves genomic signal transduction profiles of bacteria and arhaea.
