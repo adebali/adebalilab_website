@@ -1,7 +1,7 @@
 ---
 date: 2019-01-31
 title: "Microbial Signal Transduction (MiST) Database"
-featured_image: ""
+featured_image: "/images/mist.png"
 ---
 
 MiST database is now available.
