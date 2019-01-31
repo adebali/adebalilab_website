@@ -6,7 +6,7 @@
     <div>
       <h1 class="center">News</h1>
       <hr>
-      {{ range first 5 (where .Data.Pages "Section" "==" "news") }}
+      {{ range first .Site.Params.recent_news_number (where .Data.Pages "Section" "==" "news") }}
       <div>        
         {{ .Render "summary" }}
       </div>
@@ -22,7 +22,7 @@
     <div class="mv5 tj"> 
       <h1 class="center">Latest publications</h1>
       <hr>
-      {{ range first 5 (where .Data.Pages "Section" "==" "publications") }}
+      {{ range first .Site.Params.recent_publication_number (where .Data.Pages "Section" "==" "publications") }}
       <div>        
         {{ .Render "mainpage-summary"}}
       </div>
