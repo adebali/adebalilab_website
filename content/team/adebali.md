@@ -12,6 +12,7 @@ linkedin: "adebali"
 twitter: "compGenomics"
 google: "CpHcKggAAAAJ"
 date: 2018-11-01
+current: true
 draft: false
 ---
 

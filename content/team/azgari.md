@@ -8,6 +8,7 @@ degree: "BS"
 photo: "/images/azgari.jpg"
 date: 2017-09-19T14:28:22-05:00
 draft: false
+current: true
 ---
 
 ## Education

@@ -6,8 +6,10 @@ jobTitle: M.Sc. Student
 email: ardacetin@sabanciuniv.edu
 degree: "BS"
 photo: "/images/cetin.jpg"
-date: 2017-12-12T14:28:22-05:00
+date: 2017-12-12
+dateStarted: 2018-09-01
 draft: false
+current: true
 ---
 
 ## Education

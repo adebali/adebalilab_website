@@ -9,7 +9,7 @@
 <div class="">
   <ul class="p0 m0">
     <article class="pa3 pa4-ns nested-copy-line-height nested-img">
-    {{ range sort .Pages ".Params.lastname"}}
+    {{ range sort (where .Pages "Params.current" true) ".Params.lastname" }}
     <div class="pa2 m2 f4 list pl0 pa2">
       <div class="mw9 center ph3-ns">
           <div class="cf ph2-ns">
@@ -34,6 +34,29 @@
   
 </article>
 </div>
+
+<div class="">
+    <ul class="p0 m0">
+      <h1 class="tc">Past members</h1>
+      <article class="pa3 pa4-ns nested-copy-line-height nested-img">
+      {{ range sort (where .Pages "Params.past" true) ".Params.dateLeft" }}
+      <div class="pa2 m2 f4 list pl0 pa2">
+        <div class="mw9 center ph3-ns">
+            <div class="cf ph2-ns">
+              <div class="fl w-100 w-100-ns pa2">
+                <div class="tc pv4">
+                  {{.Title}}, {{.Params.jobTitle}}, {{ dateFormat "2006 Jan" .Params.dateStarted }} - {{ dateFormat "2006 Jan" .Params.dateLeft }}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {{ end }}
+        <hr>
+    </ol>
+    
+  </article>
+  </div>
 
 {{ end }}
 

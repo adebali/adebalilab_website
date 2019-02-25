@@ -8,6 +8,7 @@ degree: "MS"
 photo: "/images/bircan.jpg"
 date: 2017-12-12T14:28:22-05:00
 draft: false
+current: true
 ---
 
 

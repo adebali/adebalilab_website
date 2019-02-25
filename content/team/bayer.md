@@ -7,6 +7,9 @@ email: melisbayer@sabanciuniv.edu
 degree: ""
 photo:  "/images/bayer.png"
 date: 2017-12-12T14:28:22-05:00
+dateStarted: 2018-09-01
+past: true
+dateLeft: 2019-02-01
 draft: false
 ---
 
