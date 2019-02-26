@@ -16,7 +16,7 @@ current: true
     
     Double Major in 
     * [Computer Science and Engineering.](https://cs.sabanciuniv.edu/en/education/undergraduate)
-    * [Molecular Biology&Genetics&Bionengineering.](https://bio.sabanciuniv.edu/en/education/undergraduate)
+    * [Molecular Biology, Genetics & Bionengineering.](https://bio.sabanciuniv.edu/en/education/undergraduate)
 
 ## Projects
 
