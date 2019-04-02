@@ -45,8 +45,6 @@ ___
 * [Sabanci University](http://sabanciuniv.edu/en)
     * Personal Research Funds (yearly)
     * Starting Grant (2018-2019)
-<!-- * [Scientific and Technological Research Council of Turkey (TUBITAK)](http://tubitak.gov.tr/en)
-    * BIDEB 2232 (2018-2020) -->
 * [EMBO](http://embo.org)
     * Installation Grant (2019-2024)
 <!-- {{< figure src="/images/tubitak_logo.svg" title="" >}} -->
