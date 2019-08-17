@@ -1,5 +1,5 @@
 ---
-date: 2018-12-18
+date: 2019-08-15
 title: "Postdoctoral Position in Genomics and Bioinformatics"
 draft: False
 ---
