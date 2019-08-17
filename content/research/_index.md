@@ -44,7 +44,9 @@ ___
 ## Funding
 * [Sabanci University](http://sabanciuniv.edu/en)
     * Personal Research Funds (yearly)
-    * Starting Grant (2018-2019)
+    * Starting Grant (2018-2019, ~$12,000)
 * [EMBO](http://embo.org)
-    * Installation Grant (2019-2024)
+    * Installation Grant (2019-2024, $277,000)
+* [TUBITAK](http://tubitak.gov.tr)
+    * International Fellowship for Outstanding Researchers Programme (2020-2023, ~$545,000)
 <!-- {{< figure src="/images/tubitak_logo.svg" title="" >}} -->
