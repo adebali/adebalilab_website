@@ -9,7 +9,7 @@ photo: "/images/cetinkaya.jpg"
 date: 2019
 dateStarted: 2018-11-01
 draft: false
-current: true
+current: false
 ---
 
 ## Education

@@ -7,7 +7,7 @@ email: erkinalacamli@sabanciuniv.edu
 degree: ""
 photo: "/images/alacamli.jpg"
 draft: false
-current: true
+current: false
 ---
 
 ## Education
