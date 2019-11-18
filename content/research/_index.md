@@ -23,6 +23,8 @@ We see, hear and feel; therefore we are! How about our cells? They feel the envi
 
 The genetic disorders that affect a small fraction of a population are defined "rare". However, the number of rare disorders is so high that 1 in every 17 people will be affected by a rare genetic disorder. Therefore rare disorders should not be neglected. The genetic diagnosis of a spectrum of rare diseases has been a major problem. The prediction performance of the automated algorithms is far from the desired level. In our lab, we will attempt to study the evolution of the genes associated with Mendelian diseases and develop computational tools in predicting the effect of amino acid substitutions on protein function.
 
+[Here is the detalied information](/research/rarediseases) of how we address this problem.
+
 {{< figure src="/images/missense.jpg" title="" >}}
 
 ___________
