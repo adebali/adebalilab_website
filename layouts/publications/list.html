@@ -52,16 +52,14 @@
           {{ end }} 
         ({{ dateFormat "2006" .Params.pubDate }}) <br>
         <a class="f4 link black hover-blue" href="{{.URL}}">{{.Title}}</a><br>
-        <i>{{- .Params.journal -}}</i>,
-        {{ if .Params.vol -}}
-          <i>{{- .Params.vol -}}</i>
+        <i>{{- .Params.journal -}}</i>{{ if .Params.vol -}},
+        <i>{{- .Params.vol -}}</i>
         {{- end -}}
         {{- if .Params.issue -}}
           ({{- .Params.issue -}})
         {{- end -}}
 
-        {{- if .Params.pages -}}
-          , {{ .Params.pages -}}
+        {{- if .Params.pages -}}, {{ .Params.pages -}}
           {{- end -}}
         .
       </div>
