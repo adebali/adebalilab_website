@@ -1,6 +1,6 @@
 ---
 date: 2019-11-22
-title: "MiST 3.0: An Updated Microbial Signal Transduction Database With an Emphasis on Chemosensory Systems"
+title: "MiST 3.0: an updated microbial signal transduction database with an emphasis on chemosensory systems"
 pubDate: 2019-11-22
 description: 
 journal: "Nucleic Acids Research"
