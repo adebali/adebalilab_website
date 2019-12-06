@@ -1,6 +1,6 @@
 ---
-title: "Rarediseases"
-date: 2019-11-08T15:02:25+03:00
+title: "Precision Diagnosis for Rare Diseases"
+date: 2019-11-08
 draft: false
 ---
 
